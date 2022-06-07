@@ -1,0 +1,243 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.logo {
+  width: 50px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  margin: 0;
+  padding: 0;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  box-shadow: 0 0 25px 0 black;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.App-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.nav {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+}
+
+.main {
+  padding: 20px;
+  background-image: url(./react-big-icon.png);
+  background-repeat: no-repeat;
+  background-position: right 80%;
+}
+
+.main--title{
+  padding-block: 10px;
+}
+
+.list-style li {
+  margin: 10px 0;
+}
+
+.list-style li::marker {
+  font-size: 1.4em;
+  color: #61dafb;
+}
+
+span {
+  color: #61dafb;
+}
+
+/* Buisness Card CSS */
+
+.main-content {
+  position: absolute;
+  width: 550px;
+  height: 868px;
+  left: 490px;
+  top: 53px;
+  background: #23252C;
+}
+
+.card-img {
+  position: absolute;
+  width: 317px;
+  height: 317px;
+  left: 116px;
+  top: 44px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-body {
+  position: absolute;
+  width: 317px;
+  height: 399px;
+  left: 116px;
+  top: 361px;
+  background: #1A1B21;
+}
+
+.card-title {
+  top: 382px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.card-designation {
+  padding-left: 63px;
+  color: #F3BF99;
+}
+
+.card-email {
+  position: absolute;
+  font-size: 10.24px;
+  color: #F5F5F5;
+  display: block;
+  padding: 10px 0;
+  margin-left: 73px;
+}
+
+.button-area{
+  display: inline-flex;
+}
+
+.email-button {
+  display: flex;
+  justify-content: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  background: #FFFFFF;
+  border-radius: 6px;
+  margin: 40px 20px 10px 10px;
+}
+
+.email-logo {
+  padding: 3px;
+  margin-right: 5px;
+}
+
+.email-text {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.linkedin-button {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  padding: 9px 13px 9px 11px;
+  width: 115px;
+  height: 34px;
+  background: #5093E2;
+  border-radius: 6px;
+  margin-top: 40px;
+}
+
+.linkedin-logo {
+  margin-right: 5px;
+}
+
+.linkedin-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.about-title {
+  position: absolute;
+  width: 242.71px;
+  height: 21px;
+  left: 152px;
+  top: 535px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+
+.about-text {
+  position: absolute;
+  width: 247px;
+  left: 152px;
+  top: 561px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.int-title {
+  position: absolute;
+  width: 242.71px;
+  left: 152px;
+  top: 649px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+
+.int-text {
+  position: absolute;
+  width: 247px;
+  left: 152px;
+  top: 675px;
+  font-size: 10.24px;
+  color: #DCDCDC;
+}
+
+.social-icons {
+  position: absolute;
+  width: 317px;
+  height: 64px;
+  left: 116px;
+  top: 760px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.twitter-icon {
+  margin: 20px 20px 20px 80px;
+}
+
+.fb-icon, .insta-icon, .github-icon {
+  margin: 20px 20px 20px 0px;
+}
